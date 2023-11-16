@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+$main-color-orange:#f27f21;
+$main-color-blue:#07212e;
+$main-transition:0.8s;
+$heading-color:#051922;
+$secondry-color:#999999;
+$main-font-famaily:'Open Sans', sans-serif;
+$heading-font-famaily:'Poppins', sans-serif;
+$bg-light-color:#f5f5f5;
+
+body{
+    font-family: $main-font-famaily;
+}
+.text-main{
+    color: $main-color-orange;
+}
+.bg-light-color{
+background-color: $bg-light-color;
+}
+.font-sm{
+    font-size: 0.9375rem;
+}
+.bg-blue{
+    background-color: $main-color-blue;
+}
+
+
+// btn formatting
+
+.boxed-btn {
+    font-family: $heading-font-famaily;
+    display: inline-block;
+    background-color: $main-color-orange;
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+}
+.boxed-btn:hover {
+    background-color: #051922;
+    color: $main-color-orange;;
+}
+
+.bordered-btn {
+    font-family: $heading-font-famaily;
+    display: inline-block;
+    color: #fff;
+    border: 0.125rem solid $main-color-orange;
+    padding: 0.4375rem 1.25rem;
+
+
+}
+.bordered-btn:hover {
+    background-color: $main-color-orange;
+    color: #fff;
+}
+
+a.boxed-btn, a.bordered-btn, a.cart-btn {
+    border-radius: 3.125rem;
+}
